@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/css/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <h2>Exam Portal</h2>
+    </header>
+
+    <section>
+        <div class="select" >
+            <select name="todos" class="filter-todo">
+              <option value="all">English</option>
+              <option value="completed">Math</option>
+              <option value="uncompleted">Reasoning</option>
+            </select>
+          </div>
+          <h3 style="text-align: center;font-size: 1.5rem;">General Studies</h3>
+        <div class="owl-carousel owl-theme owl-div">
+           
+            <div class="item"><h4>History</h4></div>
+            <div class="item"><h4>Politics</h4></div>
+            <div class="item"><h4>Geography</h4></div>
+            <div class="item"><h4>Economice</h4></div>
+            <div class="item"><h4>More-1</h4></div>
+            <div class="item"><h4>More-2</h4></div>
+            <div class="item"><h4>More-3</h4></div>
+            <div class="item"><h4>More-4</h4></div>
+            <div class="item"><h4>More-5</h4></div>
+            <div class="item"><h4>More-6</h4></div>
+            <div class="item"><h4>More-7</h4></div>
+            <div class="item"><h4>More-8</h4></div>
+        </div>
+    
+        <h3 style="text-align: center;font-size: 1.5rem;">English</h3>
+        <div class="owl-carousel owl-theme owl-div">
+           
+            <div class="item"><h4>Grammer</h4></div>
+            <div class="item"><h4>Spelling</h4></div>
+            <div class="item"><h4>Comprehension</h4></div>
+            <div class="item"><h4>Economice</h4></div>
+            <div class="item"><h4>More-1</h4></div>
+            <div class="item"><h4>More-2</h4></div>
+            <div class="item"><h4>More-3</h4></div>
+            <div class="item"><h4>More-4</h4></div>
+            <div class="item"><h4>More-5</h4></div>
+            <div class="item"><h4>More-6</h4></div>
+            <div class="item"><h4>More-7</h4></div>
+            <div class="item"><h4>More-8</h4></div>
+        </div>
+    
+        <h3 style="text-align: center;font-size: 1.5rem;">Logical Reasoning</h3>
+        <div class="owl-carousel owl-theme owl-div">
+           
+            <div class="item"><h4>Puzzle</h4></div>
+            <div class="item"><h4>Age</h4></div>
+            <div class="item"><h4>Direction</h4></div>
+            <div class="item"><h4>Arthimetic</h4></div>
+            <div class="item"><h4>More-1</h4></div>
+            <div class="item"><h4>More-2</h4></div>
+            <div class="item"><h4>More-3</h4></div>
+            <div class="item"><h4>More-4</h4></div>
+            <div class="item"><h4>More-5</h4></div>
+            <div class="item"><h4>More-6</h4></div>
+            <div class="item"><h4>More-7</h4></div>
+            <div class="item"><h4>More-8</h4></div>
+        </div>
+    
+    </section>
+   
+    <script src="owl/js/jquery.min.js "></script>
+    <script src="owl/js/owl.carousel.js"></script>
+
+    <script >
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:6,
+            nav:true,
+            loop:false
+        }
+    }
+})
+    </script>
+</body>
+</html>
