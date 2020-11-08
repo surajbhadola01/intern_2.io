@@ -9,6 +9,21 @@ font-family: 'Poppins' , sans-serif;
     align-items: center;
     justify-content: center;
     color: #fff;
+    height: auto !important;
+    flex-direction: column;
+}
+ .item2{
+  height: 250px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #ff6f47;
+
+}
+.item .item-con{
+  padding: 20px;
+  font-size: 0.8rem;
 }
 section{
     display: flex;
@@ -115,9 +130,23 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
-/* Transition */
-/*
-.select:hover::after {
-  transform: scale(1.5);
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+
 }
-*/
+ .green{
+  background-color: rgb(46, 236, 135);
+  margin: 20px;
+}
+
+.box{
+  flex: 0 1 300px;
+  flex: 1 1 300px;
+  border: 1px solid red;
+  background: lightpink;
+  font-size: 2rem;
+  text-align: center;
+  height: 300px;
+}
